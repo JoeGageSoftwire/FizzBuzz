@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\Training\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
+      "projectUniqueName": "C:\\Users\\JHG\\Work\\Training\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
       "projectName": "FizzBuzz",
-      "projectPath": "C:\\Work\\Training\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
+      "projectPath": "C:\\Users\\JHG\\Work\\Training\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
       "packagesPath": "C:\\Users\\JHG\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\Training\\FizzBuzz\\FizzBuzz\\obj\\",
+      "outputPath": "C:\\Users\\JHG\\Work\\Training\\FizzBuzz\\FizzBuzz\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
