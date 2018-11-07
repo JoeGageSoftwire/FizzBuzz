@@ -8,7 +8,7 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            for (int counter = 1; counter <= 150; counter++)
+            for (int counter = 1; counter <= 255; counter++)
             {
                 List<string> rules = new List<string>();
                 if (counter % 3 == 0)
@@ -37,6 +37,11 @@ namespace FizzBuzz
                     rules.Remove("Buzz");
                     rules.Remove("Bang");
                     rules.Add("Bong");
+                }
+
+                if (counter % 17 == 0)
+                {
+                    rules.Reverse();
                 }
 
                 string output = String.Join("", rules);
