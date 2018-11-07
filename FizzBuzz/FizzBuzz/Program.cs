@@ -21,6 +21,11 @@ namespace FizzBuzz
                     rules.Add("Buzz");
                 }
 
+                if (counter % 7 == 0)
+                {
+                    rules.Add("Bang");
+                }
+
                 string output = String.Join("", rules);
 
                 if (output == "")
