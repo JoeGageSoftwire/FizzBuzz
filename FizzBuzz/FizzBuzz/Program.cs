@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml;
 
 namespace FizzBuzz
@@ -7,23 +8,28 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            for (int counter = 1; counter < 101; counter++)
+            for (int counter = 1; counter <= 100; counter++)
             {
-                if ( counter % 3 == 0 && counter % 5 == 0 )
+                List<string> rules = new List<string>();
+                if (counter % 3 == 0)
                 {
-                    Console.WriteLine("FizzBuzz");
+                    rules.Add("Fizz");
                 }
-                else if ( counter % 3 == 0 )
+
+                if (counter % 5 == 0)
                 {
-                    Console.WriteLine("Fizz");
+                    rules.Add("Buzz");
                 }
-                else if (counter % 5 == 0)
+
+                string output = String.Join("", rules);
+
+                if (output == "")
                 {
-                    Console.WriteLine("Buzz");
+                    Console.WriteLine(counter);
                 }
                 else
                 {
-                    Console.WriteLine(counter);
+                    Console.WriteLine(output);
                 }
             }
             Console.ReadLine();
